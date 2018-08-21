@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtPublicationDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="01.07.2018"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:paddingRight="5dp"
+        android:paddingTop="10dp"
+        android:textStyle="bold"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/txtWebTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtPublicationDate"
+        android:padding="0dp"
+        android:paddingTop="10dp"
+        android:text="BREAKING NEWS"
+        android:textColor="#FF0000"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+
+
+    <TextView
+        android:id="@+id/txtSectionName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lorem impsum dolor sit amet."
+        android:layout_below="@id/txtWebTitle"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/txtwebURL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read more..."
+        android:layout_below="@id/txtSectionName"
+        android:padding="0dp"
+        android:paddingTop="10dp"
+        android:textStyle="bold"
+        android:autoLink="all"
+        android:clickable="true"
+        android:textSize="15sp"
+        android:layout_marginBottom="20dp"
+        />
+
+</RelativeLayout>
